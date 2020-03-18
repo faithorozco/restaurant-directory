@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+.restaurant-directory{
+    font-family: 'Muli', sans-serif;
+    padding-top: 2rem;
+
+}
+
+
+
+/* HEADING */
+
+.heading-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurant-directory h1{
+    font-weight: bold;
+}
+
+.squiggle{
+    height: 15px;
+    width: 115px;
+    margin-right: 50px;
+}
