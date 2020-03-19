@@ -19,11 +19,40 @@
 }
 
 .restaurant-directory h1{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .squiggle{
     height: 15px;
     width: 115px;
     margin-right: 50px;
+}
+
+/* CARDS */
+
+.card{
+    width: 18rem;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-subtitle{
+    font-weight: 600;
+}
+
+.download-text{
+    color: #F93822;
+}
+
+.app-icon{
+    height: 1.7rem;
 }
