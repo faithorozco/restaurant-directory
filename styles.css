@@ -19,11 +19,76 @@
 }
 
 .restaurant-directory h1{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .squiggle{
     height: 15px;
     width: 115px;
-    margin-right: 50px;
+    margin-right: 7rem;
+}
+
+.state-city-wrapper{
+    margin-left: auto;
+    margin-right: auto;;
+    border: none;
+}
+
+.state-city-wrapper h2{
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+
+/* CARDS */
+
+
+@media only screen and (min-width: 768px){
+    .single{
+        margin-right: auto;
+    }
+}
+
+.card{
+    width: 18rem;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-subtitle{
+    font-weight: 600;
+}
+
+.download-text{
+    color: #F93822;
+}
+
+.app-icon{
+    height: 1.7rem;
+}
+
+.city{
+    border: none;
+}
+
+.state-city-wrapper h2{
+    font-weight: bold;
+}
+
+.state-city-wrapper h3{
+    margin-top: 2rem;
+}
+
+.card h3{
+    margin-top: 4rem;
+    font-size: 1.5rem;
 }
